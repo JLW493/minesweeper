@@ -1,6 +1,5 @@
 import pytest
 import pygame
-from unittest.mock import MagicMock, patch
 from minesweeper.minesweeper_gameplay import Cell, Game, Board
 
 @pytest.fixture

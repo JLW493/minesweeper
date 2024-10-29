@@ -6,7 +6,6 @@ __author__ = "Jason Walat"
 __copyright__ = "Jason Walat"
 __license__ = "MIT"
 
-
 def test_fib():
     """API Tests"""
     assert fib(1) == 1

@@ -7,4 +7,3 @@ pyfiglet
 sphinx-rtd-theme
 pygame
 pytest
-unittest.mock
