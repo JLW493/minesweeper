@@ -284,3 +284,4 @@ intersphinx_mapping = {
 }
 
 print(f"loading configurations for {project} {version} ...", file=sys.stderr)
+html_theme='sphinx_rtd_theme'
