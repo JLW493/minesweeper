@@ -307,7 +307,12 @@ class Game:
         return row, col
 
     def handle_left_click(self, row, col):
-        """Handle the logic when the left mouse button is clicked."""
+        """Handles left clicking cells
+
+        Args:
+            row (_int_): Row of cell
+            col (_int_): Column of cell
+        """
         cell = self.board.cells[row][col]
         if cell.reveal(self.board):  # Mine clicked
             self.board.reveal_all_mines()
